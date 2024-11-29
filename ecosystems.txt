@@ -1,0 +1,32 @@
+AlmaLinux
+Alpine
+Android
+Bitnami
+CRAN
+Chainguard
+Debian
+GIT
+GSD
+GitHub Actions
+Go
+Hackage
+Hex
+Linux
+Maven
+NuGet
+OSS-Fuzz
+Packagist
+Pub
+PyPI
+Red Hat
+Rocky Linux
+RubyGems
+SUSE
+SwiftURL
+UVI
+Ubuntu
+Wolfi
+[EMPTY]
+crates.io
+npm
+openSUSE
