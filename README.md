@@ -1,2 +1,3 @@
-# some ez script
-easy script
+# Some Easy Script
+
+This is an easy script.
