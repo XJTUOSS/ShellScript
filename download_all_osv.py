@@ -1,4 +1,5 @@
 import os
+import zipfile
 import requests
 
 # 定义文件下载路径
@@ -33,3 +34,12 @@ for ecosystem in ecosystems:
             print(f"Failed to download {ecosystem}-all.zip")
 
 print("Downloads completed.")
+
+#解压到  data/structured/osv/zip/目录下
+for ecosystem in ecosystems:
+    ecosystem = ecosystem.strip()
+    if ecosystem:
+        print(f"Unzipping vulnerabilities for {ecosystem}...")
+        zip_file_path = f'osv_data/{ecosystem}-all.zip'
+        with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+            zip_ref.extractall(f'data/structured/osv/zip/{ecosystem}')

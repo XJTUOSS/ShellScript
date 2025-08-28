@@ -1,10 +1,13 @@
 AlmaLinux
+Alpaquita
 Alpine
 Android
+BellSoft Hardened Containers
 Bitnami
 CRAN
 Chainguard
 Debian
+GHC
 GIT
 GSD
 GitHub Actions
@@ -12,7 +15,9 @@ Go
 Hackage
 Hex
 Linux
+Mageia
 Maven
+MinimOS
 NuGet
 OSS-Fuzz
 Packagist
